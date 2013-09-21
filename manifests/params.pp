@@ -14,12 +14,12 @@
 #
 class google_chrome::params {
 
-	### Application related parameters
+  ### Application related parameters
 
-	$package_name = $::operatingsystem ? {
-		default => 'google-chrome-stable'
-	}
+  $package_name = $::operatingsystem ? {
+    default => 'google-chrome-stable'
+  }
 
-	$enabled = true
+  $enabled = true
 
 }
